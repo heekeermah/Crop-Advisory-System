@@ -112,7 +112,7 @@ if st.button("Generate Crop Recommendation"):
 
         st.write(
             f"- {row['Crop'].title()} "
-            f"({row['Probability']*100:.1f}% suitability)"
+            f"({row['Probability']*100:.1f}% model confidence)"
         )
 
 
