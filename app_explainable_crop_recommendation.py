@@ -10,7 +10,7 @@ import joblib
 
 # Load the trained XGBoost pipeline
 # The pipeline already contains preprocessing and the model
-model = joblib.load("crop_prediction_model.pkl")
+model = joblib.load("crop_prediction_model2.pkl")
 
 
 # Load dataset used during training
