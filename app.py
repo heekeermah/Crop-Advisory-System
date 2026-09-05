@@ -23,6 +23,11 @@ using measured soil and environmental conditions.
 """
 )
 
+st.write(
+    """
+Enter the soil nutrient and environmental conditions
+"""
+)
 
 N = st.number_input("Nitrogen (N)", min_value=0.0)
 P = st.number_input("Phosphorus (P)", min_value=0.0)
